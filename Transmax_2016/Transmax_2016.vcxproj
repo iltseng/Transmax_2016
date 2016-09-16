@@ -110,7 +110,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="First_Names.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Names.cpp" />
+    <ClCompile Include="Scores.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="First_Names.hpp" />
+    <ClInclude Include="main.hpp" />
+    <ClInclude Include="Names.hpp" />
+    <ClInclude Include="Scores.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
